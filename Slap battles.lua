@@ -87,8 +87,6 @@ if _srv.PlaceId ~= targetPlace then
             Duration = 5
         })
     end
-    task.wait(6)
-    me:Kick("Teleportation restriction encountered.\nVerify teleport settings before running.")
     return
 end
 
